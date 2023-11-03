@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Product/Service Simulator</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <form id="productForm">
+        <label for="product1">Xbox Series S:</label>
+        <p>$300</p>
+        <input type="number" id="product1" name="product1" min="0" value="0" data-price="299">
+        <label for="product2">PS5:</label>
+        <p>$700</p>
+        <input type="number" id="product2" name="product2" min="0" value="0" data-price="399">
+        <label for="product3">3D Virtual Reality Glasses</label> 
+        <p>$500</p>   
+        <input type="number" id="product3" name="product3" min="0" value="0" data-price="99">
+        <!-- Add more products as needed -->
+        <button type="button" onclick="calculateTotal()">Calculate Total</button>
+    </form>
+    <p id="totalCost"></p>
+    <script src="main.js"></script>
+</body>
+</html>
