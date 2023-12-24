@@ -3,6 +3,7 @@
 <head>
     <title>Product/Service Simulator</title>
     <link rel="stylesheet" href="style/estilos.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <meta charset="utf-8">
 </head>
 
@@ -13,20 +14,7 @@
 <body>
     <form id="productForm">
         <h1 class="titlo">David's Games</h1>
-        <label class="sub" for="product1">Xbox Series S:</label>
-        <p class="price">$300</p>
-        <img class="xbox" src="image/Xbox.avif" alt="Xbox Series S">
-        <input type="number" id="product1Quantity" min="0" max="30" value="0">
-        <label class="sub" for="product2">PlayStation 5:</label>
-        <p class="price">$700</p>
-        <img class="ps5" src="image/PS5.jpeg" alt="PS5">
-        <input type="number" id="product2Quantity" min="0" max="30" value="0">
-        <label class="sub" for="product3">3D Virtual Reality Glasses</label> 
-        <p class="price">$500</p>
-        <img class="Glasses" src="image/3DRVH.jpeg" alt="3D Virtual Reality Glasses">
-        <input type="number" id="product3Quantity" min="0" max="30" value="0">
-        <!-- Add more products as needed -->
-        
+        <!-- Los productos serán generados dinámicamente aquí -->
         <button type="button" onclick="calculateTotal()">Calculate Total</button>
     </form>
     <p id="totalCost"></p>

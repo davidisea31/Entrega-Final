@@ -1,0 +1,26 @@
+[
+    {
+        "id": "product1",
+        "name": "Xbox Series S",
+        "price": 300,
+        "image": "image/Xbox.avif",
+        "description": "Xbox Series S es la consola de nueva generación más elegante y compacta de Microsoft, con velocidades y rendimiento de nueva generación en un formato 60% más pequeño que la Xbox Series X.",
+        "maxQuantity": 30
+    },
+    {
+        "id": "product2",
+        "name": "PlayStation 5",
+        "price": 700,
+        "image": "image/PS5.jpeg",
+        "description": "La PlayStation 5 de Sony es la última generación de consolas de juegos, ofreciendo gráficos impresionantes, velocidades de carga increíblemente rápidas y una impresionante biblioteca de juegos.",
+        "maxQuantity": 30
+    },
+    {
+        "id": "product3",
+        "name": "3D Virtual Reality Glasses",
+        "price": 500,
+        "image": "image/3DRVH.jpeg",
+        "description": "Las gafas de realidad virtual 3D te permiten sumergirte en mundos virtuales, ofreciendo una experiencia de juego inmersiva como ninguna otra.",
+        "maxQuantity": 30
+    }
+]
